@@ -10,7 +10,7 @@ import (
 )
 
 const goMod = "module main"
-const noteDependecyMissing = "<sub>**Note:** if the dependency in the _import_ section is red, click the dependency, press <span class=\"shortcut\">&shortcut:ShowIntentionActions;</span> and select **Sync dependencies of main**.</sub>\n"
+const noteDependecyMissing = "<sub>**Note:** if the dependency in the _import_ section is highlighted in red, click the dependency, press <span class=\"shortcut\">&shortcut:ShowIntentionActions;</span> and select **Sync dependencies of main**.</sub>\n"
 
 // const taskInfoYaml = "type: %s\nfiles:\n  - name: task.go\n    visible: true\n  - name: go.mod\n    visible: false%s\n"
 const contentDir = "./content"
